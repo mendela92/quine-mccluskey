@@ -73,7 +73,7 @@ public class QuineMcCluskeyAlgorith {
         System.out.println("Press y if there are dont cares ortherwise press n (Y/N)");
         if_dontcares = s.next().charAt(0);
         if (if_dontcares == 'y' || if_dontcares == 'Y') {
-            System.out.println("Please enter dontcare values and hit -1 when finished");
+            System.out.println("Please enter dontcare value and hit -1 when finished");
             int_dontcares = scan_minterms();
             
             
